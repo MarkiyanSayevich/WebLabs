@@ -1,0 +1,27 @@
+#nav_container {
+	border: 1px solid black;
+	padding: 5px;
+}
+#nav_container .nav_item {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	cursor: pointer;
+}
+
+#page_content {
+	margin: 15px 0;
+}
+#first_block, #form_block, #table_block {
+	border-bottom: 3px solid black;
+	padding: 5px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#footer {
+	position: relative;
+	text-align: center;	
+	padding: 10px;
+	border: 1px solid black;
+}

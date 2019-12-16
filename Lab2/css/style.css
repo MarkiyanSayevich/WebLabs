@@ -1,0 +1,43 @@
+#spin_button {
+	display: none;
+	padding: 5px;	
+}
+#spin_button:hover { background: black; }
+#spin_button:hover .spin_layer { background: white; }
+#spin_button .spin_layer {
+	width: 20px;
+	height: 3px;
+	margin-top: 3px;
+	background: black;
+}
+#spin_button .spin_layer:first-child { margin-top: 0; }
+#nav_container {
+	border: 1px solid black;
+	padding: 5px;
+}
+#nav_container .nav_item {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	cursor: pointer;
+}
+#page_content {
+	margin: 15px 0;
+}
+#first_block, #form_block, #table_block {
+	border-bottom: 3px solid black;
+	padding: 5px;
+	text-align: center;
+	margin: 10px 0;
+}
+#footer {
+	position: relative;
+	text-align: center;	
+	padding: 10px;
+	border: 1px solid black;
+}
+
+@media (max-width: 425px) {
+	#nav_container { display: none; }
+	#spin_button { display: inline-block; }
+}
